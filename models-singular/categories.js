@@ -3,8 +3,7 @@
 // Where is our schema defined?
 // How do we get it in here so we can run methods on it?
 
-const mongooseModel = require('./categories-schema');
-
+const mongooseModelCategories = require('./categories-schema');
 
 
 class Categories {
@@ -19,9 +18,9 @@ class Categories {
     // If 2, return it as an object like this:
     // { count: ##, results: [{}, {}] }
     if(_id){
-      return mongooseModel.findOne({_id})
+      return mongooseModelCategories.findOne({_id})
     } else {
-      return mongooseModel.find({})
+      return mongooseModelCategories.find({})
         .then(results => {
           return `{ count: ${results.length}, results: [${results}]`
         });
@@ -30,16 +29,16 @@ class Categories {
   }
 
   create(record) {
-    const newRecord = new mongooseModel(record);
+    const newRecord = new mongooseModelCategories(record);
     return newRecord.save();
   }
 
   update(_id, record) {
-    return mongooseModel.findByIdAndUpdate(_id, record, {new: true});
+    return mongooseModelCategories.findByIdAndUpdate(_id, record, {new: true});
   }
 
   delete(_id) {
-   return mongooseModel.findByIdAndDelete(_id);
+   return mongooseModelCategories.findByIdAndDelete(_id);
   }
 
 }

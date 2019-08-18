@@ -51,7 +51,7 @@ describe('Categories Model (Singular)', () => {
     let food = {name: 'Pizza', description: 'lunch'};
     return categories.create(food)
       .then(newFood => {
-        return categories.delete(newFood._id, food)
+        return categories.delete(newFood._id)
           .then(updatedFood => {
             expect(updatedFood).toEqual(undefined);
           })

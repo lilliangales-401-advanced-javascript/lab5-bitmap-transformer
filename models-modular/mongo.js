@@ -17,7 +17,15 @@ class Model {
    * @returns {count:#,results:[{*}]} | {*}
    */
   get(_id) {
-
+    if(_id){
+      return this.schema.findOne({_id})
+    } else {
+      return this.schema.find({})
+        .then(results => {
+          return `{ count: ${results.length}, results: [${results}]`
+        });
+    }
+    return Promise.reject(new Error('INVALID ID'));
   }
 
   /**
@@ -26,7 +34,8 @@ class Model {
    * @returns {*}
    */
   create(record) {
-
+    const newRecord = new Model.schema(record);
+    return newRecord.save();
   }
 
   /**
@@ -36,7 +45,7 @@ class Model {
    * @returns {*}
    */
   update(_id, record) {
-
+    return this.schema.findByIdAndUpdate(_id, record, {new: true});
   }
 
   /**
@@ -45,7 +54,7 @@ class Model {
    * @returns {*}
    */
   delete(_id) {
-
+    return this.schema.findByIdAndDelete(_id);
   }
 
 }
