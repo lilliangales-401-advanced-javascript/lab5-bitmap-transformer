@@ -1,4 +1,4 @@
-const Categories = require('../../models-singular/categories.js');
+const Categories = require('../../models-modular/categories/categories.js');
 let categories = new Categories();
 
 const supergoose = require('../supergoose.js');
