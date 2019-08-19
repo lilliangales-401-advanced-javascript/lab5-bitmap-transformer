@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cd51797-98c4-4513-86f2-b8399fb48dd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/__tests__/models-modular/products.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models-modular/products/products-schema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models-modular/products/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/models-modular/categories.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/models-modular/categories.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2019-08-18T23-48-56Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.2019-08-18T23-48-56Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.interim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000001" beforeDir="false" afterPath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models-modular/categories/categories-schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/models-modular/categories/categories-schema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models-modular/categories/categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/models-modular/categories/categories.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565988006126</updated>
-      <workItem from="1565988007280" duration="16348000" />
+      <workItem from="1565988007280" duration="16592000" />
     </task>
     <servers />
   </component>
