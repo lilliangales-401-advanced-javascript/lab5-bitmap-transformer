@@ -6,11 +6,11 @@
 
 ### Links and Resources
 * [submission PR](https://github.com/lilliangales-401-advanced-javascript/lab5-bitmap-transformer/pull/1)
-* [travis](http://xyz.com)
+* [travis](https://travis-ci.com/lilliangales-401-advanced-javascript/lab5-bitmap-transformer)
 
 
 #### Documentation
-* [jsdoc](http://xyz.com) (Server assignments)
+* [jsdoc](http://xyz.com) - still not working for me will check in Monday
 
 ### Modules
 #### `categories.js and products.js`
@@ -29,7 +29,3 @@
 #### Running the app
 * `npm start`
 
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
